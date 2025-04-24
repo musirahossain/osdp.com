@@ -1,0 +1,67 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #003087;
+}
+.navbar {
+  background: linear-gradient(to right, #003087, #00B7EB);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+}
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8rem 2rem 2rem 2rem;
+  background: linear-gradient(to right, #003087, #00B7EB);
+  color: white;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  animation: fadeIn 2s ease-in-out;
+}
+.hero-buttons .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border-radius: 25px;
+  color: white;
+  background: #005fa3;
+  transition: transform 0.3s;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background: #007ecb;
+}
+.hero-image img {
+  max-width: 400px;
+  border-radius: 20px;
+}
